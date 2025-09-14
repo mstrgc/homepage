@@ -12,29 +12,15 @@ body{
   line-height: 150%;
 }
 
-#navbar{
+#topbar1{
   width: 100%;
   height: 61px;
   position: fixed;
   background: #0087cb3b;
 }
 
-.navbar{
+.topbar1{
   width: 90%;
   height: 100%;
   margin: 0 auto;
-}
-
-.navbar>ul{
-  list-style-type: none;
-}
-
-.navbar>ul>li{
-  margin: 0 0 0 30px;
-  font-size: 17px;
-  font-weight: 500;
-  font-stretch: normal;
-  font-style: normal;
-  letter-spacing: normal;
-  float: right;
 }
