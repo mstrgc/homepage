@@ -4,13 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style/main.css">
   <link rel="icon" href="img/logo.png">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
   <title>Rade</title>
 </head>
 <body>
-  <div class="headerr">
   <div id="topbar1">
     <div class="topbar1 navbar navbar-expand">
       <ul class="navbar-nav">
@@ -73,20 +73,22 @@
       </ul>
     </div>
   </div>
-</div>
-  <div id="banner">
-    <div class="banner d-flex flex-row justify-content-between align-items-center">
-      <div class="align-items-center">
-        <h1>رده بررسی و مقایـــسه
-          <br/>
-          خدمات مالی و بانکـــی
-        </h1>
-        <a href="" class="btn btn-primary">ورود به رده</a>
-      </div>
-      <div>
-        <img id="banner-img" src="img/banner.png">
+  <main>
+    <div class="main">
+      <div class="banner d-flex flex-row-reverse justify-content-between">
+        <div class="banner-img-container">
+          <img class="w-100" id="banner-img" src="img/banner.png">
+        </div>
+        <div class="d-flex align-items-start flex-column h-100">
+          <h1 class="mt-5">رده بررسی و مقایـــسه
+            <br/>
+            خدمات مالی و بانکـــی
+          </h1>
+          <h5 class="mt-2">رده بررسی و مقایسه خدمات مالی و بانکی</h5>
+          <button href="" class="btn-banner">ورود به رده</button>
+        </div>
       </div>
     </div>
-  </div>
+  </main>
 </body>
 </html>

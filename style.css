@@ -10,6 +10,7 @@ body{
   min-height: 100%;
   color: #1d1d1d;
   line-height: 150%;
+  background: #f7f8f9;
 }
 
 /****** topbar1 ******/
@@ -21,6 +22,7 @@ body{
   display: flex;
   flex: 0 0 auto;
   z-index: 200;
+  position: fixed;
 }
 
 .topbar1{
@@ -41,7 +43,10 @@ body{
   height: 96px;
   display: flex;
   flex: 0 0 auto;
-  box-shadow: 0 5px 10px 0 #71717133;;
+  box-shadow: 0 5px 10px 0 #71717133;
+  z-index: 200;
+  position: fixed;
+  background: #f7f8f9;
 }
 
 .topbar2{
@@ -66,25 +71,4 @@ body{
 
 .topbar2>ul>li{
   margin-left: 15px;
-}
-
-/****** banner ******/
-
-#banner{
-  top: 157px;
-  width: 100%;
-  height: 300px;
-  flex: 1;
-}
-
-.banner{
-  width: 80%;
-  height: 100%;
-  margin: 0 auto;
-}
-
-#banner-img{
-  width: 360px;
-  height: 360px;
-  margin-left: 20px;
 }

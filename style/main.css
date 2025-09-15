@@ -23,6 +23,14 @@ main{
   width: 70%;
 }
 
-#banner-img{
-  width: 100%;
+.btn-banner{
+  width: 210px;
+  height: 57px;
+  margin: 30% 0 0 0;
+  padding: 16px 68px;
+  border-radius: 15px;
+  border: solid 2px #0087cb;
+  background-color: #0087cb;
+  color: white;
+  white-space: nowrap;
 }
