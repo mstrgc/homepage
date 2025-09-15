@@ -13,11 +13,13 @@ body{
 }
 
 /****** topbar1 ******/
+
 #topbar1{
   width: 100%;
   height: 61px;
-  position: fixed;
   background: #dbe2e7;
+  display: flex;
+  flex: 0 0 auto;
   z-index: 200;
 }
 
@@ -37,7 +39,8 @@ body{
   top: 61px;
   width: 100%;
   height: 96px;
-  position: fixed;
+  display: flex;
+  flex: 0 0 auto;
   box-shadow: 0 5px 10px 0 #71717133;;
 }
 
@@ -63,4 +66,25 @@ body{
 
 .topbar2>ul>li{
   margin-left: 15px;
+}
+
+/****** banner ******/
+
+#banner{
+  top: 157px;
+  width: 100%;
+  height: 300px;
+  flex: 1;
+}
+
+.banner{
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+#banner-img{
+  width: 360px;
+  height: 360px;
+  margin-left: 20px;
 }
