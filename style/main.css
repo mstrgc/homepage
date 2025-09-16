@@ -175,3 +175,12 @@ main{
   cursor: pointer;
   box-shadow: -610px 0 0 600px #2d3078;
 }
+
+.row3>div>button{
+  height: 38px;
+  padding: 0 30px;
+  border-radius: 15px;
+  border: solid 1px #0087cb;
+  background-color: #0087cb;
+  color: white;
+}
