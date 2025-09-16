@@ -149,19 +149,25 @@ main{
 }
 
 .row3-input>input[type='range']{
-  -webkit-appearance: none; 
-  direction: ltr;
+  appearance: none;
+  overflow: hidden;
   width: 600px;
-  height: 7px;
+  height: 10px;
+  direction: ltr;
   margin: 10px auto;
   background: #d1d1d1;
-  accent-color: #2d3078;
   border-radius: 15px;
 }
 
+
 .row3-input>input[type=range]::-webkit-slider-thumb{
-  -webkit-appearance: none;
+  appearance: none;
   width: 32px;
-  height: 24px;
+  height: 10px;
+  border: 2px solid #2d3078;
+  border-radius: 15px;
   background: white;
+  background-size: 100% 100%;
+  cursor: pointer;
+  box-shadow: -610px 0 0 600px #2d3078;
 }
