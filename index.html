@@ -135,7 +135,7 @@
         </div>
       </div>
       <div class="row3">
-        <h3 class="">جستجوی وام</h3>
+        <h3>جستجوی وام</h3>
         <hr>
         <p>مبلغ وامی که به آن احتیاج دارید به‌ همراه مبلغ قسطی که توانایی پرداخت ماهانه آن ‌را دارید انتخاب کنید تا وام‌های موجود متناسب با نیاز شما در سیستم بانکی پیشنهاد شود</p>
         <div class="loan-counter text-center">
@@ -144,8 +144,44 @@
         </div>
         <div class="row3-input text-center">
           <input type="range">
-          <p style="float: right;">۵ میلیون تومان</p>
-          <p style="float: left;">۵ میلیارد تومان</p>
+          <p class="float-end">۵ میلیارد تومان</p>
+          <p class="float-start">۵ میلیون تومان</p>
+        </div>
+        <div class="loan-counter text-center">
+          <p class="loan-counter-title">قسط ماهانه</p>
+          <input class="loan-counter-amount fw-bold fs-6 text-center" placeholder="قسط ماهانه را وارد کنید"></input>
+        </div>
+        <div class="row3-input text-center">
+          <input type="range">
+          <p class="float-end">۵۰۰ میلیون تومان</p>
+          <p class="float-start">۱ میلیون تومان</p>
+        </div>
+        <hr class="mt-5">
+        <div class="d-flex flex-row">
+          <p class="col-5">آیا می خواهید برای دریافت وام سپرده گذاری کنید؟</p>
+          <form class="col-7 d-flex flex-row">
+            <div class="col-3">
+            <input type="radio" class="form-check-input" id="radiocheck1">
+            <label for="radiocheck1" class="form-check-label">خیر</label>
+            </div>
+            <div class="col-3">
+            <input type="radio" class="form-check-input" id="radiocheck2">
+            <label for="radiocheck2" class="form-check-label">بله</label>
+            </div>
+          </form>
+        </div>
+        <div class="d-flex flex-row">
+          <p class="col-5">کدام ضمانت ها برای تان امکان پذیر است؟</p>
+          <form class="col-7 d-flex flex-row">
+            <div class="col-3">
+            <input type="checkbox" class="form-check-input" id="radiocheck1">
+            <label for="radiocheck1" class="form-check-label">ضامن رسمی</label>
+            </div>
+            <div class="col-3">
+            <input type="checkbox" class="form-check-input" id="radiocheck2">
+            <label for="radiocheck2" class="form-check-label">سند ملکی</label>
+            </div>
+          </form>
         </div>
       </div>
     </div>
