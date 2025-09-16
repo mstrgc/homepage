@@ -133,3 +133,26 @@ main{
   border-radius: 15px;
   padding: 24px;
 }
+
+.loan-counter-title{
+  margin: 20px auto 5px;
+  font-size: 14px;
+  color: #0087cb;
+}
+
+.loan-counter-amount{
+  max-width: fit-content;
+  margin: 0 auto;
+  padding: 14px 158px;
+  border-radius: 15px;
+  border: solid 2px #d1d1d1;
+}
+
+.row3>input{
+  appearance: none;
+  width: 600px;
+  margin: 10px auto;
+  background: #d1d1d1;
+  color: #2d3078;
+  border-radius: 15px;
+}
