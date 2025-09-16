@@ -83,3 +83,43 @@ main{
   border-radius: 15px;
   box-shadow: 0 10px 10px 0 #71717133;
 }
+
+/****** row2 ******/
+
+.row2{
+  width: 100%;
+  background-color: white;
+  box-shadow: 0 10px 20px 0 rgba(148, 145, 145, 0.15);
+  border-radius: 15px;
+  padding: 24px;
+}
+
+.row2-button{
+  width: 80%;
+  height: 37px;
+  margin: 8px 0 8px 48px;
+  border-radius: 10px;
+  background-color: #eaeaea;
+}
+
+.row2-col2{
+  padding: 10px;
+}
+
+.row2-col2>button{
+  height: 38px;
+  padding: 0 30px;
+  margin-top: 20px;
+  border-radius: 15px;
+  border: solid 1px #0087cb;
+  background-color: #0087cb;
+  color: white;
+}
+
+.row2-button-active{
+  width: 80%;
+  height: 37px;
+  margin: 8px 0 8px 48px;
+  border-radius: 10px;
+  background: rgba(0, 135, 203, 0.2);
+}
