@@ -40,7 +40,7 @@ main{
 
 .row1{
   padding: 20px 10px;
-  margin: 40px 0;
+  margin: 40px 0 5px;
   width: 100%;
 }
 
@@ -72,7 +72,6 @@ main{
 
 .row1-active{
   width: 22%;
-  bottom: 40px;
 }
 
 .row1-section-active{
@@ -92,6 +91,7 @@ main{
   box-shadow: 0 10px 20px 0 rgba(148, 145, 145, 0.15);
   border-radius: 15px;
   padding: 24px;
+  margin: 0 0 40px 0 !important;
 }
 
 .row2-button{
@@ -122,4 +122,14 @@ main{
   margin: 8px 0 8px 48px;
   border-radius: 10px;
   background: rgba(0, 135, 203, 0.2);
+}
+
+/****** row3 ******/
+
+.row3{
+  width: 100%;
+  background-color: white;
+  box-shadow: 0 10px 20px 0 rgba(148, 145, 145, 0.15);
+  border-radius: 15px;
+  padding: 24px;
 }
