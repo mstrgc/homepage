@@ -148,11 +148,20 @@ main{
   border: solid 2px #d1d1d1;
 }
 
-.row3>input{
-  appearance: none;
+.row3-input>input[type='range']{
+  -webkit-appearance: none; 
+  direction: ltr;
   width: 600px;
+  height: 7px;
   margin: 10px auto;
   background: #d1d1d1;
-  color: #2d3078;
+  accent-color: #2d3078;
   border-radius: 15px;
+}
+
+.row3-input>input[type=range]::-webkit-slider-thumb{
+  -webkit-appearance: none;
+  width: 32px;
+  height: 24px;
+  background: white;
 }
