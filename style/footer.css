@@ -1,24 +1,36 @@
 footer{
-    width: 100%;
-    background: rgb(234, 234, 234, .5);
+  width: 100%;
+  background: rgb(234, 234, 234, .5);
 }
 
 .footer{
-    padding: 36px 0;
-    width: 80%;
-    margin: 0 auto;
+  padding: 36px 0;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .footer-logo{
-    line-height: 1;
-    font-size: 16px;
+  line-height: 1;
+  font-size: 16px;    
 }
 
 .footer-logo span{
-    color: #0087cb;
+  color: #0087cb;
 }
 
 .footer-logo>img{
-    width: 40px;
-    height: 40px;
+  width: 40px;
+  height: 40px;
+      margin-left: 10px;
+
+}
+
+.footer-download-button{
+  color: white;
+  width: 172px;
+  height: 36px;
+  margin: 16px 24px 6px 0;
+  padding: 8px 16px 7px 15px;
+  border-radius: 15px;
+  background-color: #1d1d1d;
 }
