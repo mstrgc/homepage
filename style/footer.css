@@ -1,6 +1,6 @@
 footer{
   width: 100%;
-  background: rgb(234, 234, 234, .5);
+  background: rgb(234, 234, 234);
 }
 
 .footer{
@@ -29,8 +29,25 @@ footer{
   color: white;
   width: 172px;
   height: 36px;
-  margin: 16px 24px 6px 0;
-  padding: 8px 16px 7px 15px;
+  margin: 20px 0 0 16px;
   border-radius: 15px;
+  padding: 5px;
   background-color: #1d1d1d;
+}
+
+.footer-download-button>img{
+  width: 20px;
+  height: 20px;
+  margin: auto 5px auto 0;
+}
+
+.footer-download-button>p{
+  font-size: 14px;
+  margin: auto 10px;
+}
+
+.footer-enamad>img{
+  height: 50px;
+  width: auto;
+  margin: 20px 0 20px 20px;
 }
