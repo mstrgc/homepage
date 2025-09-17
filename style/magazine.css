@@ -14,4 +14,22 @@
   margin: 0 0 0 24px;
   border: solid 1px #0087cb;
   border-radius: 15px;
+  height: 40px;
+}
+
+.magazine-button-container{
+  position: relative;
+}
+
+.magazine-arrow-button{
+  width: 40px;
+  height: 40px;
+  padding: 10px 14px;
+  background: #0087cb;
+  border-radius: 15px;
+}
+
+.magazine-arrow-button-container{
+  position: absolute;
+  left: 0;
 }
