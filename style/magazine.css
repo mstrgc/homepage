@@ -33,3 +33,17 @@
   position: absolute;
   left: 0;
 }
+
+.card{
+  margin: 20px auto;
+  width: 346px;
+  border-radius: 15px;
+}
+
+.card-text{
+  font-size: 14px;
+}
+
+.cardfooter{
+  color: #9b9b9b;
+}
