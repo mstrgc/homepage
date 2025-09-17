@@ -34,10 +34,28 @@
   left: 0;
 }
 
+.card-container{
+  width: 150%;
+}
+
 .card{
-  margin: 20px auto;
+  margin-top: 20px;
+  margin-left: 60px;
   width: 346px;
-  border-radius: 15px;
+  border-radius: 15px !important;
+}
+
+.card>img{
+  border-radius: 15px 15px 0 0;
+}
+
+.card:first-of-type{
+  margin-right: -10%;
+  opacity: 40%;
+}
+
+.card:last-of-type{
+  opacity: 40%;
 }
 
 .card-text{
@@ -46,4 +64,6 @@
 
 .cardfooter{
   color: #9b9b9b;
+  margin: 10px 0 0 0;
+  font-size: 12px;
 }

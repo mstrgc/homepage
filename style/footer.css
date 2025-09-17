@@ -1,0 +1,24 @@
+footer{
+    width: 100%;
+    background: rgb(234, 234, 234, .5);
+}
+
+.footer{
+    padding: 36px 0;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.footer-logo{
+    line-height: 1;
+    font-size: 16px;
+}
+
+.footer-logo span{
+    color: #0087cb;
+}
+
+.footer-logo>img{
+    width: 40px;
+    height: 40px;
+}
