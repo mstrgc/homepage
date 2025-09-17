@@ -61,3 +61,9 @@ footer{
   border-left: none;
   width: auto;
 }
+
+.sub-footer>div>img{
+  width: 24px;
+  height: 24px;
+  margin-right: 28px;
+}
