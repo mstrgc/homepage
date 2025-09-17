@@ -11,6 +11,7 @@
 .download-section{
   width: 80%;
   margin: 0 auto;
+  position: relative;
 }
 
 #download-border{
@@ -40,6 +41,12 @@
 }
 
 #phone-img{
-  width: 228px;
-  height: 429px;
+  position: absolute;
+  margin-right: 70%;
+  margin-top: -8%;
+}
+
+#phone-img>img{
+  width: auto;
+  height: 450px;
 }
