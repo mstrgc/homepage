@@ -57,7 +57,7 @@ footer{
   width: auto;
 }
 
-.footer-row2>div>div{
-  border-left: 2px solid #d1d1d1;
+.footer-row2>div>div:last-of-type{
+  border-left: none;
   width: auto;
 }
