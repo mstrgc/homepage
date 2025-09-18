@@ -14,6 +14,17 @@ main{
   margin: 0 auto;
 }
 
+/****** button ******/
+
+.button-blue{
+  height: 38px;
+  padding: 0 30px;
+  border-radius: 15px;
+  border: solid 1px #0087cb;
+  background-color: #0087cb;
+  color: white;
+}
+
 /****** banner ******/
 
 .banner{
@@ -104,16 +115,6 @@ main{
 
 .row2-col2{
   padding: 10px;
-}
-
-.row2-col2>button{
-  height: 38px;
-  padding: 0 30px;
-  margin-top: 20px;
-  border-radius: 15px;
-  border: solid 1px #0087cb;
-  background-color: #0087cb;
-  color: white;
 }
 
 .row2-button-active{
