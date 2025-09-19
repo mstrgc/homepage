@@ -15,6 +15,7 @@
   border: solid 1px #0087cb;
   border-radius: 15px;
   height: 40px;
+  white-space: nowrap;
 }
 
 .magazine-button-container{
@@ -32,6 +33,18 @@
 .magazine-arrow-button-container{
   position: absolute;
   left: 0;
+}
+
+@media(max-width: 992px){
+  .magazine-button-container{
+    flex-direction: column;
+  }
+  .magazine-arrow-button-container{
+    position: static;
+    display: block;
+    width: 100%;
+    margin: 20px auto;
+  }
 }
 
 .card-container{
