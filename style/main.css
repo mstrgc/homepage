@@ -120,10 +120,6 @@ main{
   background-color: #eaeaea;
 }
 
-.row2-col2{
-  padding: 0 48px !important;
-}
-
 .row2-button-active{
   background: rgba(0, 135, 203, 0.2) !important;
 }
