@@ -57,13 +57,6 @@ main{
   width: 100%;
 }
 
-@media (max-width: 992px){
-  .row1{
-    width: 250%;
-    justify-content: space-between;
-  }
-}
-
 .row1-section{
   width: 22%;
   padding: 10px;
@@ -142,12 +135,6 @@ main{
   margin: 20px auto 40px auto;
 }
 
-@media (min-width: 992px){
-  .row3-input{
-    width: 50%;
-  }
-}
-
 .loan-counter-title{
   margin: 20px auto 5px;
   color: #0087cb;
@@ -182,4 +169,17 @@ main{
   background-size: 100% 100%;
   cursor: pointer;
   box-shadow: -610px 0 0 600px #2d3078;
+}
+
+/****** style for smaller screens ******/
+
+@media (max-width: 992px){
+  .row1{
+    width: 250%;
+    justify-content: space-between;
+  }
+
+  .row3-input{
+    width: 50%;
+  }
 }
