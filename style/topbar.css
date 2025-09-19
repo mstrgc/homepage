@@ -1,14 +1,16 @@
+/****** Header ******/
+
 header{
   position: fixed;
   width: 100%;
   z-index: 200;
 }
-/****** topbar1 ******/
+
+/****** Topbar 1 ******/
 
 #topbar1{
   height: 61px;
   background: #dbe2e7;
-  z-index: 200;
 }
 
 .topbar1{
@@ -21,12 +23,11 @@ header{
   padding-right: 0;
 }
 
-/****** topbar2 ******/
+/****** Topbar 2 ******/
 
 #topbar2{
   height: 96px;
   box-shadow: 0 5px 10px 0 #71717133;
-  z-index: 200;
   background: #f7f8f9;
 }
 
@@ -34,15 +35,6 @@ header{
   width: 90%;
   height: 100%;
   margin: 0 auto;
-}
-
-@media (max-width: 992px) {
-  .navbar-collapse {
-    background: #f7f8f9;
-    box-shadow: 0 5px 10px 0 #71717133;
-    border-radius: 15px;
-    margin-top: 40px;
-  }
 }
 
 #topbar2-logo{
@@ -54,6 +46,18 @@ header{
   font-size: 25px;
 }
 
-.topbar2>ul>li{
+#mainNavbar>ul>li{
   margin-left: 15px;
+}
+
+/****** style for smaller screens ******/
+
+@media (max-width: 992px) {
+  .navbar-collapse {
+    background: #f7f8f9;
+    box-shadow: 0 5px 10px 0 #71717133;
+    border-radius: 15px;
+    margin-top: 20px;
+    padding: 10px;
+  }
 }
