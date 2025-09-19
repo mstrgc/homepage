@@ -15,7 +15,7 @@ main{
 
 /****** button ******/
 
-.button-blue{
+.btn-blue{
   height: 38px;
   padding: 0 30px;
   border-radius: 15px;
@@ -38,13 +38,10 @@ main{
 
 .btn-banner{
   width: 210px;
+  height: auto;
   padding: 10px 0;
   margin: 50px 0 0 0;
   border-radius: 15px;
-  background-color: #0087cb;
-  border: none;
-  color: white;
-  font-size: 20px;
 }
 
 /****** row1 ******/
