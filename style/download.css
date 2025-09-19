@@ -1,4 +1,4 @@
-/****** download ******/
+/****** Download ******/
 
 .download{
   width: 100%;
@@ -37,7 +37,7 @@
   margin: auto 10px;
 }
 
-/****** phone image with shadow ******/
+/****** Phone image with shadow ******/
 
 #phone-img{
   position: relative;
@@ -67,4 +67,14 @@
   margin-right: 25%;
   box-shadow: 0px 0px 200px 80px #2d3078;
   z-index: 0;
+}
+
+/****** style for smaller screens ******/
+
+@media(max-width:768px){
+  #phone-img>div{
+    position: absolute;
+    margin-right: 20%;
+    margin-top: -45%;
+  }
 }
