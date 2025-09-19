@@ -135,8 +135,14 @@ main{
 }
 
 .row3-input{
-  width: 600px;
-  margin: 20px auto;
+  width: 100%;
+  margin: 20px auto 40px auto;
+}
+
+@media (min-width: 992px){
+  .row3-input{
+    width: 50%;
+  }
 }
 
 .loan-counter-title{
@@ -156,7 +162,7 @@ main{
 .row3-input>input[type='range']{
   appearance: none;
   overflow: hidden;
-  width: 600px;
+  width: 100%;
   height: 10px;
   direction: ltr;
   margin: 10px auto;
