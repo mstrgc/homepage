@@ -30,10 +30,11 @@ main{
 .banner{
   width: 100%;
   margin: 0 auto;
+  margin-right: 0 !important;
 }
 
 .banner-img-container{
-  width: 70%;
+  padding: 0 !important;
 }
 
 .btn-banner{
@@ -53,6 +54,13 @@ main{
   padding: 20px 10px;
   margin: 40px 0 5px;
   width: 100%;
+}
+
+@media (max-width: 992px){
+  .row1{
+    width: 250%;
+    justify-content: space-between;
+  }
 }
 
 .row1-section{
@@ -75,10 +83,8 @@ main{
   background: white;
   clip-path: polygon(0 0, 100% 0, 50% 100%);
   box-shadow: 0 10px 10px 0 #71717133;
-  top: 25px !important;
-  right: 40%;
-  display: flex;
-  position: relative;
+  position: absolute;
+  right: 15%;
 }
 
 .row1-active{
@@ -92,6 +98,7 @@ main{
   padding: 10px;
   border-radius: 15px;
   box-shadow: 0 10px 10px 0 #71717133;
+  position: relative;
 }
 
 /****** row2 ******/
