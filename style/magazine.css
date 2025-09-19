@@ -10,7 +10,6 @@
 .magazine-button{
   color: #0087cb;
   padding: 8px 24px;
-  font-size: 16px;
   margin: 0 0 0 24px;
   border: solid 1px #0087cb;
   border-radius: 15px;
@@ -97,10 +96,6 @@
 
 .card:last-of-type{
   opacity: 40%;
-}
-
-.card-text{
-  font-size: 14px;
 }
 
 .cardfooter{
