@@ -1,13 +1,14 @@
+header{
+  position: fixed;
+  width: 100%;
+  z-index: 200;
+}
 /****** topbar1 ******/
 
 #topbar1{
-  width: 100%;
   height: 61px;
   background: #dbe2e7;
-  display: flex;
-  flex: 0 0 auto;
   z-index: 200;
-  position: fixed;
 }
 
 .topbar1{
@@ -23,13 +24,9 @@
 /****** topbar2 ******/
 
 #topbar2{
-  top: 61px;
-  width: 100%;
   height: 96px;
-  display: flex;
   box-shadow: 0 5px 10px 0 #71717133;
   z-index: 200;
-  position: fixed;
   background: #f7f8f9;
 }
 
