@@ -131,7 +131,7 @@ main{
 }
 
 .row3-input{
-  width: 100%;
+  width: 50%;
   margin: 20px auto 40px auto;
 }
 
@@ -173,13 +173,13 @@ main{
 
 /****** style for smaller screens ******/
 
-@media (max-width: 992px){
+@media(max-width: 992px){
   .row1{
     width: 250%;
     justify-content: space-between;
   }
 
   .row3-input{
-    width: 50%;
+    width: 100%;
   }
 }
