@@ -160,6 +160,8 @@ main{
   border-radius: 15px;
 }
 
+/****** Input style for chrome ******/
+
 .row3-input>input[type=range]::-webkit-slider-thumb{
   appearance: none;
   width: 32px;
@@ -167,9 +169,25 @@ main{
   border: 2px solid #2d3078;
   border-radius: 15px;
   background: white;
-  background-size: 100% 100%;
   cursor: pointer;
   box-shadow: -610px 0 0 600px #2d3078;
+}
+
+/****** Input style for firefox ******/
+
+.row3-input>input[type=range]::-moz-range-thumb{
+  appearance: none;
+  width: 32px;
+  height: 10px;
+  border: 2px solid #2d3078;
+  border-radius: 15px;
+  background: white;
+  cursor: pointer;
+}
+
+.row3-input>input[type=range]::-moz-range-progress{
+  background: #2d3078;
+  height: 10px;
 }
 
 /****** style for smaller screens ******/
