@@ -1,18 +1,21 @@
 @font-face{
   font-family: 'Dana';
-  src: url('fonts/dana/dana-fanum-black.eot') format('embedded-opentype'),
-       url('fonts/dana/dana-fanum-black.woff') format('woff'),
-       url('fonts/dana/dana-fanum-black.woff2') format('woff2');
-  font-style: normal;
+  src: url('fonts/dana/dana-fanum-medium.eot');
+  src: url('fonts/dana/dana-fanum-medium.eot') format('embedded-opentype'),
+       url('fonts/dana/dana-fanum-medium.woff') format('woff'),
+       url('fonts/dana/dana-fanum-medium.woff2') format('woff2');
+  font-weight: normal;
 }
-
-@font-face {
+/*
+@font-face{
   font-family: 'Dana';
+  src: url('fonts/dana-bold/dana-fanum-bold.eot');
   src: url('fonts/dana-bold/dana-fanum-bold.eot') format('embedded-opentype'),
        url('fonts/dana-bold/dana-fanum-bold.woff') format('woff'),
        url('fonts/dana-bold/dana-fanum-bold.woff2') format('woff2');
-  font-style: normal;}
-
+  font-weight: bold;
+}
+*/
 html{
   height: 100%;
 }
@@ -27,7 +30,7 @@ body{
   color: #1d1d1d;
   line-height: 150%;
   background: #f7f8f9;
-  font-weight: normal;
+  font-family: Dana !important;
 }
 
 /****** Fonts ******/
