@@ -6,7 +6,7 @@
        url('fonts/dana/dana-fanum-medium.woff2') format('woff2');
   font-weight: normal;
 }
-/*
+
 @font-face{
   font-family: 'Dana';
   src: url('fonts/dana-bold/dana-fanum-bold.eot');
@@ -15,7 +15,7 @@
        url('fonts/dana-bold/dana-fanum-bold.woff2') format('woff2');
   font-weight: bold;
 }
-*/
+
 html{
   height: 100%;
 }
