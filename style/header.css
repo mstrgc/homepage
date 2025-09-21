@@ -52,7 +52,7 @@ header{
 
 /****** style for smaller screens ******/
 
-@media (max-width: 992px) {
+@media(max-width: 992px){
   .navbar-collapse {
     background: #f7f8f9;
     box-shadow: 0 5px 10px 0 #71717133;
