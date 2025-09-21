@@ -16,8 +16,9 @@ main{
 /****** button ******/
 
 .btn-blue{
-  height: 38px;
+  height: 48px;
   padding: 0 30px;
+  font-size: 14px;
   border-radius: 15px;
   border: solid 1px #0087cb;
   background-color: #0087cb;
@@ -127,7 +128,7 @@ main{
   background-color: white;
   box-shadow: 0 10px 20px 0 rgba(148, 145, 145, 0.15);
   border-radius: 15px;
-  padding: 24px;
+  padding: 24px 24px 16px;
 }
 
 .row3-input{
